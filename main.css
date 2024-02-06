@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 100%;
+    padding-bottom: 100px;
+    width: 900px;
+}
+
+form, h1, h2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-style: oblique;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: rgb(74, 67, 203);
+    color:rgb(245, 244, 241);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+}
+
+button:hover {
+    background-color: rgb(56, 42, 95);
+}
+
+.sucesso {
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(43, 226, 52);
+    color:rgb(245, 244, 241);
+    display: none;
+}
+
+.invalido {
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(246, 4, 4);
+    color:rgb(245, 244, 241);
+    display: none;
+}
